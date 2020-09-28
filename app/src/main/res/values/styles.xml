@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="fontFamily">@font/amarante</item>
+        <item name="android:windowAnimationStyle">@style/customAniamtion</item>
+    </style>
+    <!-- custom animation-->
+    <style name="customAniamtion" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slid_in_top</item>
+        <item name="android:activityOpenExitAnimation">@anim/slid_out_bottom</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slid_in_bottom</item>
+        <item name="android:activityCloseExitAnimation">@anim/slid_out_top</item>
+    </style>
+</resources>
